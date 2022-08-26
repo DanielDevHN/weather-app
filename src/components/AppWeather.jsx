@@ -1,8 +1,12 @@
-
+import Formulario from "./Formulario"
 
 const AppWeather = () => {
   return (
-    <div>WeatherAPP</div>
+    <>
+        <main className="dos-columnas">
+            <Formulario />
+        </main>
+    </>
   )
 }
 
